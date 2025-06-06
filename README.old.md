@@ -65,7 +65,3 @@ npm run dev
 5. Added clear pricing breakdown
 6. Improved progress indicator
 7. Added helpful tooltips for skip size selection
-
-## License
-
-MIT
