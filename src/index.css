@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900 bg-[#f0f0f0];
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-indigo-600 text-white hover:bg-indigo-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+  }
+
+  .neumorphic-shadow {
+    @apply shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff];
+  }
+
+  .neumorphic-inset {
+    @apply shadow-[inset_10px_10px_20px_#bebebe,inset_-10px_-10px_20px_#ffffff];
+  }
+}
